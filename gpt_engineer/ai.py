@@ -8,7 +8,7 @@ class AI:
     arguments = "/api/openai/v1/chat/completions"
     headers = {"Content-Type": "application/json"}
 
-    def __init__(self, model="gpt-3.5-turbo", temperature=0.1):
+    def __init__(self, model="gpt-3.5-turbo", temperature=0.9):
         self.temperature = temperature
         if model!="gpt-3.5-turbo":
             print(f"Model {model} not available, sorry. Currently you use GPT-3.5-Turbo")
