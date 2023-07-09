@@ -47,8 +47,3 @@ For installing **Free-GPT-Engineer** run this commands:
 **Results**
 - Check the generated files in `projects/my-new-project/workspace`
 
-## Example
-
-https://github.com/AntonOsika/gpt-engineer/assets/4467025/6e362e45-4a94-4b0d-973d-393a31d92d9b
-Coffe for 
-<a href="https://www.buymeacoffee.com/metimol"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee :)&emoji=&slug=metimol&button_colour=FFDD00&font_colour=000000&font_family=Lato&outline_colour=000000&coffee_colour=ffffff" /><
