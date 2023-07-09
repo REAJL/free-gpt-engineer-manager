@@ -114,11 +114,12 @@ def remove_colons():
     for root, dirs, files in os.walk(folder_path):
         for file in files:
             if ":" in file:
-                new_file = file.replace(":", "")
+                new_file = file.replace(":", "").strip(".")
                 os.rename(os.path.join(root, file), os.path.join(root, new_file))
                 print(f"Renamed {file} to {new_file}")
 
     print("Folder names have been corrected successfully.")
+
 
 def open_workspace_folder():
     folder_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'projects', 'new_folder', 'workspace')
