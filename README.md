@@ -30,8 +30,13 @@ For installing **Free-GPT-Engineer** run this commands:
 - `pip install -r requirements.txt`
 
 
-** RUN WITH MANAGER  ** (Texted on Ubuntu 22.04.2 LTS
+** RUN WITH MANAGER  ** (Tested on Ubuntu 22.04.2 LTS)
 - Run command `python3 freegptmanager.py`
+- Press Delete Files
+- Press Create
+- Edit Prompt
+- And start script
+- Export and renew 
 
 
 ** RUN WITHOUT MANAGER **:
