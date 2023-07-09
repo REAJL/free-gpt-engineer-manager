@@ -25,8 +25,8 @@ This project based on the [GPT-Engineer repository](https://github.com/AntonOsik
 ## Usage
 
 For installing **Free-GPT-Engineer** run this commands:
-- `git clone https://github.com/Metim0l/free-gpt-engineer.git`
-- `cd free-gpt-engineer`
+- `git clone https://github.com/arkadawa/free-gpt-engineer-manager.git`
+- `cd free-gpt-engineer-manager`
 - `pip install -r requirements.txt`
 
 
