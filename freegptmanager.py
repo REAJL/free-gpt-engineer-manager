@@ -113,14 +113,18 @@ def remove_colons():
     
     for root, dirs, files in os.walk(folder_path):
         for file in files:
-            if ":" in file or "`" in file:
-                new_file = file.replace(":", "").replace("`", "").strip(".")
+            if ":" in file or "`" in file or "(" in file or ")" in file:
+                new_file = file.replace(":", "").replace("`", "").replace("(", "").replace(")", "").strip(".")
                 os.rename(os.path.join(root, file), os.path.join(root, new_file))
                 print(f"Renamed {file} to {new_file}")
 
     print("Folder names have been corrected successfully.")
 
-
+def open_file(index):
+    file_path = model.filePath(index)
+    if os.path.isfile(file_path):
+        subprocess.Popen(['open', file_path])
+        print(f"Opened file: {file_path}")
 
 def open_workspace_folder():
     folder_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'projects', 'new_folder', 'workspace')
@@ -146,6 +150,9 @@ if __name__ == '__main__':
             color: #F0F0F0;
             border: 1px solid #707070;
             padding: 5px;
+        }
+        QPushButton:hover {
+            background-color: #505050;
         }
         QTextEdit {
             background-color: #202020;
@@ -189,6 +196,8 @@ if __name__ == '__main__':
     export_button.clicked.connect(export_files)
 
     edit_window = None  # Global variable to hold the EditPromptWindow instance
+
+    tree_view.doubleClicked.connect(open_file)
 
     window = QWidget()
     window.resize(800, 600)
