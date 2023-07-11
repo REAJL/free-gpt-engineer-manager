@@ -1,7 +1,3 @@
-I have recently designed a script based on the integration of GPT-Engineer, made available by https://github.com/Metim0l/free-gpt-engineer. I have decided to share this script with you. It is a graphical manager specifically developed to optimize the user experience of the Free-GPT-Engineer program. This file is the result of numerous hours of work, aiming to create an intuitive and user-friendly interface for seamless manipulation and control of the program's functionalities. I hope that this tool proves valuable to you in your own projects
-
-Coffee for Metim0l! He's thirsty <3
-
 <a href="https://www.buymeacoffee.com/metimol"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee :)&emoji=&slug=metimol&button_colour=FFDD00&font_colour=000000&font_family=Lato&outline_colour=000000&coffee_colour=ffffff" /></a>
 
 ### Hello everyone!
@@ -25,21 +21,11 @@ This project based on the [GPT-Engineer repository](https://github.com/AntonOsik
 ## Usage
 
 For installing **Free-GPT-Engineer** run this commands:
-- `git clone https://github.com/arkadawa/free-gpt-engineer-manager.git`
-- `cd free-gpt-engineer-manager`
+- `git clone https://github.com/Metim0l/free-gpt-engineer.git`
+- `cd free-gpt-engineer`
 - `pip install -r requirements.txt`
 
-
-** RUN WITH MANAGER  ** (Tested on Ubuntu 22.04.2 LTS)
-- Run command `python3 freegptmanager.py`
-- Press Delete Files
-- Press Create
-- Edit Prompt
-- And start script
-- Export and renew 
-
-
-** RUN WITHOUT MANAGER **:
+**Run**:
 - Create an empty folder inside the repo, in **projects** folder.
 - Fill in the `prompt` file in your new folder
 - Run command `python main.py projects/new_folder`
@@ -47,3 +33,6 @@ For installing **Free-GPT-Engineer** run this commands:
 **Results**
 - Check the generated files in `projects/my-new-project/workspace`
 
+## Example
+
+https://github.com/AntonOsika/gpt-engineer/assets/4467025/6e362e45-4a94-4b0d-973d-393a31d92d9b
